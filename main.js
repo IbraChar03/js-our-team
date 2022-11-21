@@ -42,24 +42,24 @@ const listaMembri = [
 
 for(i = 0; i < listaMembri.length; i++){
 
-    let ObjMembri=listaMembri[i];
-    let imgBox=document.getElementById("box" + i);
-    let imgElement=document.createElement("img");
+    let ObjMembri = listaMembri[i];
+    let imgBox = document.getElementById("box" + i);
+    let imgElement = document.createElement("img");
     imgElement.classList.add("img-size");
-    imgElement.src=ObjMembri.foto;
+    imgElement.src = ObjMembri.foto;
     imgBox.append(imgElement);
 
 
-    let nameBox=document.getElementById("name" + i);
-    let nameElement=document.createElement("div");
-    nameElement.innerHTML=ObjMembri.nome;
+    let nameBox = document.getElementById("name" + i);
+    let nameElement = document.createElement("div");
+    nameElement.innerHTML = ObjMembri.nome;
     nameElement.classList.add("name-class");
     nameBox.append(nameElement);
 
 
-    let roleBox=document.getElementById("role" + i);
-    let roleElement=document.createElement("div");
-    roleElement.innerHTML=ObjMembri.ruolo;
+    let roleBox = document.getElementById("role" + i);
+    let roleElement = document.createElement("div");
+    roleElement.innerHTML = ObjMembri.ruolo;
     roleElement.classList.add("role-class");
     roleBox.append(roleElement);
    
