@@ -49,15 +49,16 @@ main{
 }
 .container{
     width: 50%;
-    height: 90%;
+     height: 90%; 
     /* background-color: aqua; */
 }
 .row{
-    height: 50%;
+    /* height: 50%; */
     width: 100%;
     /* background-color: brown; */
     margin-bottom: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 .card{
     height: 95%;
