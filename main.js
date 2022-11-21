@@ -54,7 +54,6 @@ for(i = 0; i < listaMembri.length; i++){
   let imgBox = document.createElement("div");
   imgBox.classList.add("img-box");
   card.append(imgBox);
-  imgBox.setAttribute("id","box" + i)
   let imgElement = document.createElement("img");
   imgElement.classList.add("img-size");
   imgElement.src = ObjMembri.foto;
@@ -67,7 +66,6 @@ for(i = 0; i < listaMembri.length; i++){
   let nameBox = document.createElement("div");
   nameRole.append(nameBox);
   nameBox.classList.add("name");
-  nameBox.setAttribute("id","name" + i)
   let nameElement = document.createElement("div");
   nameElement.innerHTML = ObjMembri.nome;
   nameElement.classList.add("name-class");
@@ -76,7 +74,6 @@ for(i = 0; i < listaMembri.length; i++){
   let roleBox = document.createElement("div");
   roleBox.classList.add("role");
   nameRole.append(roleBox);
-  roleBox.setAttribute("id","role" + i)
   let roleElement = document.createElement("div");
   roleElement.innerHTML = ObjMembri.ruolo;
   roleElement.classList.add("role-class");
