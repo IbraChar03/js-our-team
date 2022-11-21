@@ -1,6 +1,6 @@
 
-let container=document.querySelector(".container");
-let row=document.createElement("div");
+let container = document.querySelector(".container");
+let row = document.createElement("div");
 row.classList.add("row");
 container.append(row);
 
@@ -48,10 +48,10 @@ const listaMembri = [
 for(i = 0; i < listaMembri.length; i++){
   
   let ObjMembri = listaMembri[i];
-  let card=document.createElement("div");
+  let card = document.createElement("div");
   card.classList.add("card");
   row.append(card);
-  let imgBox=document.createElement("div");
+  let imgBox = document.createElement("div");
   imgBox.classList.add("img-box");
   card.append(imgBox);
   imgBox.setAttribute("id","box" + i)
@@ -60,11 +60,11 @@ for(i = 0; i < listaMembri.length; i++){
   imgElement.src = ObjMembri.foto;
   imgBox.append(imgElement);
 
-  let nameRole=document.createElement("div");
+  let nameRole = document.createElement("div");
   nameRole.classList.add("name-role");
   card.append(nameRole);
 
-  let nameBox=document.createElement("div");
+  let nameBox = document.createElement("div");
   nameRole.append(nameBox);
   nameBox.classList.add("name");
   nameBox.setAttribute("id","name" + i)
@@ -73,7 +73,7 @@ for(i = 0; i < listaMembri.length; i++){
   nameElement.classList.add("name-class");
   nameBox.append(nameElement);
 
-  let roleBox=document.createElement("div");
+  let roleBox = document.createElement("div");
   roleBox.classList.add("role");
   nameRole.append(roleBox);
   roleBox.setAttribute("id","role" + i)
