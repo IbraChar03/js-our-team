@@ -19,6 +19,9 @@ header{
     justify-content: center;
     align-items: center;
 }
+#title{
+    font-size: 20px;
+}
 .desc{
     width: 100%;
     height: 50%;
@@ -98,6 +101,7 @@ main{
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    color: #8b8681;
 }
 .role-class{
     width: 100%;
@@ -106,4 +110,5 @@ main{
     justify-content: center;
     align-items: center;
     font-size: 15px;
+    color: #8b8681;
 }
